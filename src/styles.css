@@ -1,0 +1,18 @@
+@import "./components/App.css";
+@import "./components/Dialogue.css";
+@import "./components/Menu.css";
+@import "./components/ImageCard.css";
+
+:root {
+  --gradient-blue-white: linear-gradient(
+    90deg,
+    rgba(17, 3, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  --color-gray: #777777;
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+}

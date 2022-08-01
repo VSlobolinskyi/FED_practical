@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="app" id="app">
+      <div class="menu">
+        <div class="icons-container">
+          <image class="heart-icon" src="./src/assets/icons8-heart-24.png" />
+          <image
+            id="settings"
+            class="settings-icon"
+            src="./src/assets/settings--v1.png"
+          />
+        </div>
+      </div>
+      <div class="dialogue dialogue--hidden">
+        <div class="dialogue__overlay"></div>
+        <div class="dialogue__content">
+          <div class="dialogue__inputs">
+            <input id="width" placeholder="width" />
+            <input id="height" placeholder="height" />
+            <input id="imgId" placeholder="id" />
+          </div>
+          <button id="saveButton" class="dialogue__save-button">Save</button>
+        </div>
+      </div>
+      <div class="image-card">
+        <image
+          id="image"
+          src="https://i.picsum.photos/id/1040/600/400.jpg?hmac=f04AuBrj5NUPfhBDKqwtsO9kL1UYeCqkEZDv9Ci9bo4"
+        />
+        <div class="image-controlls">
+          <image src="./src/assets/icons8-heart-24.png" />
+          <image id="refresh" src="./src/assets/refresh--v1.png" />
+        </div>
+      </div>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  background: var(--gradient-blue-white);
+  box-shadow: 5px 5px 5px var(--color-gray);
+  width: 100%;
+  height: 40px;
+}
+
+.icons-container {
+  align-self: center;
+}
+
+.icons-container > * {
+  cursor: pointer;
+  height: 24px;
+  margin: 0 5px;
+}

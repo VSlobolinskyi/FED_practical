@@ -1,0 +1,23 @@
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 95vw;
+  height: 90vh;
+  justify-self: center;
+  border: 1px solid var(--color-gray);
+  border-radius: 8px;
+}
+
+.image-controlls {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-controlls > * {
+  cursor: pointer;
+  height: 24px;
+  margin: 0 5px;
+}
